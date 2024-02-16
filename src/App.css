@@ -84,14 +84,14 @@ ul li {
   padding-bottom: 15px;
 }
 
-.costBox, .bottomBox {
+.cost, .bottomBox {
   display: inline-grid;
   grid-gap: 27px;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 1fr;
 }
 
-.mainBoxes {
+.costBoxes {
   border-style: solid;
   border-color: lightgray;
   margin: auto;
@@ -99,8 +99,16 @@ ul li {
   width: 331px;
 }
 
-.mainBoxes a {
-  margin-left: -28%;
+h2 {
+  margin-left: -39%;
+}
+
+.costBoxes a {
+  margin-left: -50%;
+}
+
+.costBoxes p {
+  margin-left: -31%;
 }
 
 .middleButton { 
@@ -108,7 +116,7 @@ ul li {
   color: white;
 }
 
-.mainBoxes button {
+.costBoxes button {
   width: 124px;
   height: 50px;
   border-radius: 5px;
@@ -124,6 +132,11 @@ div.footer {
 
 h4 {
   color: gray;
+}
+
+h5 {
+  margin-left: -4%;
+  font-size: 21px;
 }
 
 .footer li a {

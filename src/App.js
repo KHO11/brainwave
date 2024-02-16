@@ -22,10 +22,10 @@ function App() {
           <a className='monthlyText'>Montly<button className='monthlyButton'></button></a>
           <a>Yearly <button className='yearlyButton'>Save 25%</button></a>
         </p>
-        <div className='costBox'>
-          <div className='mainBoxes'>
+        <div className='cost'>
+          <div className='costBoxes'>
             <h2>Starter</h2>
-            <p>$19 / month</p>
+            <p className='money'>$19 / month</p>
             <p>billed monthly</p>
             <ul>
               <li><a>Commercial Lie</a></li>
@@ -37,9 +37,9 @@ function App() {
             <button className='leftButton'>Start Free Trail</button>
             <p>No credit card required</p>
           </div>
-        <div className='mainBoxes'>
+        <div className='costBoxes'>
           <h2>Standard</h2>
-          <p>$49 / month</p>
+          <p className='money'>$49 / month</p>
           <p>billed monthly</p>
           <ul>
             <li><a>Commercial Lie</a></li>
@@ -51,9 +51,9 @@ function App() {
           <button className='middleButton'>Start Free Trail</button>
           <p>No credit card required</p>
         </div>
-        <div className='mainBoxes'>
+        <div className='costBoxes'>
           <h2>Premium</h2>
-          <p>$99 / month</p>
+          <p className='money'>$99 / month</p>
           <p>billed monthly</p>
           <ul>
             <li><a>Commercial Lie</a></li>
@@ -74,27 +74,27 @@ function App() {
         </p>
       <div className='bottomBox'>
         <div>
-          <h2>Quick Step Process</h2>
+          <h5>Quick Step Process</h5>
           <p>With lots of unique blocks, you can <br /> easily build a page without coding. <br /> Build your next landing page.</p>
         </div>
         <div>
-          <h2>Create custom orders</h2>
+          <h5>Create custom orders</h5>
           <p>With lots of unique blocks, you can <br /> easily build a page without coding. <br /> Build your next landing page.</p>
         </div>
         <div>
-          <h2>Multiple coupons</h2>
+          <h5>Multiple coupons</h5>
           <p>With lots of unique blocks, you can <br /> easily build a page without coding. <br /> Build your next landing page.</p>
         </div>
         <div>
-          <h2>Organize your campaigns</h2>
+          <h5>Organize your campaigns</h5>
           <p>With lots of unique blocks, you can <br /> easily build a page without coding. <br /> Build your next landing page.</p>
         </div>
         <div>
-          <h2>Manage customers</h2>
+          <h5>Manage customers</h5>
           <p>With lots of unique blocks, you can <br /> easily build a page without coding. <br /> Build your next landing page.</p>
         </div>
         <div>
-          <h2>Track progress fast</h2>
+          <h5>Track progress fast</h5>
           <p>With lots of unique blocks, you <br /> can easily build a page without coding. <br /> Build your next landing page.</p>
         </div>
       </div>
