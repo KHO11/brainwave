@@ -120,6 +120,27 @@ h2 {
   width: 205px;
   height: 59px;
   border-radius: 5px;
+  text-align: left;
+}
+
+.middleButton .arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  padding: 5px;
+  float: right;
+}
+
+.leftButton .arrow, .rightButton .arrow {
+  border: solid #4040a1;
+  border-width: 0 3px 3px 0;
+  padding: 5px;
+  float: right;
+}
+
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 div.footer {

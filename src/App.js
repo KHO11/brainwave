@@ -34,7 +34,7 @@ function App() {
               <li><a>6 Month Premium</a></li>
               <li><a>Lifetime Update</a></li>
             </ul>
-            <button className='leftButton'>Start Free Trail</button>
+            <button className='leftButton'>Start Free Trail <i className="arrow right"></i></button>
             <p>No credit card required</p>
           </div>
         <div className='costBoxes'>
@@ -48,7 +48,7 @@ function App() {
             <li><a>6 Month Premium</a></li>
             <li><a>Lifetime Update</a></li>
           </ul>
-          <button className='middleButton'>Start Free Trail</button>
+          <button className='middleButton'>Start Free Trail <i class="arrow right"></i></button>
           <p>No credit card required</p>
         </div>
         <div className='costBoxes'>
@@ -62,7 +62,7 @@ function App() {
             <li><a>6 Month Premium</a></li>
             <li><a>Lifetime Update</a></li>
           </ul>
-          <button className='rightButton'>Start Free Trail</button>
+          <button className='rightButton'>Start Free Trail <i class="arrow right"></i></button>
           <p>No credit card required</p>
         </div>
       </div>
