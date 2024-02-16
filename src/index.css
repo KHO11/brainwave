@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-.topHeader {
-  display: flex;
-}
-
 .smallHeader {
   font-size: 24px;
   font-weight: 700;
@@ -44,7 +40,7 @@ body {
   border-radius: 5px;
   font-size: 17px;
   color: white;
-  background-color: SlateBlue;
+  background-color: #4040a1;
 }
 
 h1, h3{
@@ -104,7 +100,7 @@ ul li {
 }
 
 .middleButton { 
-  background-color: SlateBlue;
+  background-color: #4040a1;
   color: white;
 }
 
@@ -116,7 +112,7 @@ ul li {
 
 div.footer {
   width: 100%;
-  background-color: blue;
+  background-color: #36486b;
   text-align: center;
   display: flex;
   height: 500px;
