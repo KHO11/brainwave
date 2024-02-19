@@ -84,19 +84,28 @@ ul li {
   padding-bottom: 15px;
 }
 
-.cost, .bottomBox {
+.bottomBox {
   display: inline-grid;
   grid-gap: 27px;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 1fr;
 }
 
+.cost {
+  width: 100%;
+  text-align: center;
+
+}
+
 .costBoxes {
+  margin: 7px;
+  min-width: 280px;
+  vertical-align: top;/*Fix for different     height elements*/
+  margin-bottom: 10px;
+  display: inline-block;
+  border-radius: 5px;
   border-style: solid;
   border-color: lightgray;
-  margin: auto;
-  border-radius: 5px;
-  width: 331px;
 }
 
 .costBoxes ul {
