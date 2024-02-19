@@ -29,7 +29,7 @@ body {
 .topnav-right {
   float: right;
   position: relative;
-  right: 27%;
+  padding-right: 28%;
 }
 
 .topnav-right a {
@@ -99,16 +99,12 @@ ul li {
   width: 331px;
 }
 
-h2 {
-  margin-left: -39%;
+.costBoxes ul {
+  padding-right: 37%;
 }
 
-.costBoxes a {
-  margin-left: -50%;
-}
-
-.costBoxes p {
-  margin-left: -31%;
+h2, .money {
+  padding-bottom: 9px;
 }
 
 .middleButton { 
@@ -140,15 +136,14 @@ h2 {
 
 .right {
   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
 }
 
-div.footer {
-  width: 100%;
+.footer {
   background-color: #36486b;
   text-align: center;
   display: flex;
-  height: 500px;
+  padding-bottom: 12%;
+  width: 100%;
 }
 
 h4 {
@@ -172,13 +167,13 @@ ul.bottomList {
 }
 
 .separator {
-  position: absolute;
   border-top: 1px solid gray;
   margin-top: 23%;
   width: 80%;
   color: gray;
   display: flex;
   justify-content: center;
+  position: absolute;
   margin-left: 11%;
 }
 
@@ -199,4 +194,17 @@ ul.bottomList {
 
 .bottomBox {
   padding-bottom: 5%;
+}
+
+@media screen and (max-width: 700px) {
+  .App {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }

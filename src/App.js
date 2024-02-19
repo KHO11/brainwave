@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div class="topnav">
         <a className='smallHeader'>Brainwave.io</a>
-        <div class="topnav-right">
+        <div className="topnav-right">
           <a>Demos</a>
           <a>Pages</a>
           <a>Support</a>
@@ -24,10 +24,9 @@ function App() {
         </p>
         <div className='cost'>
           <div className='costBoxes'>
-            <h2>Starter</h2>
-            <p className='money'>$19 / month</p>
-            <p>billed monthly</p>
             <ul>
+              <h2>Starter</h2>
+              <li><a className='money'>$19 / month <br/> billed monthly</a></li>
               <li><a>Commercial Lie</a></li>
               <li><a>100+ HTML UL B</a></li>
               <li><a>01 Domain Sup</a></li>
@@ -38,10 +37,9 @@ function App() {
             <p>No credit card required</p>
           </div>
         <div className='costBoxes'>
-          <h2>Standard</h2>
-          <p className='money'>$49 / month</p>
-          <p>billed monthly</p>
           <ul>
+            <h2>Standard</h2>
+            <li><a className='money'>$49 / month <br/> billed monthly</a></li>
             <li><a>Commercial Lie</a></li>
             <li><a>100+ HTML UL B</a></li>
             <li><a>01 Domain Sup</a></li>
@@ -52,10 +50,9 @@ function App() {
           <p>No credit card required</p>
         </div>
         <div className='costBoxes'>
-          <h2>Premium</h2>
-          <p className='money'>$99 / month</p>
-          <p>billed monthly</p>
           <ul>
+            <h2>Premium</h2>
+            <li><a className='money'>$99 / month <br/> billed monthly</a></li>
             <li><a>Commercial Lie</a></li>
             <li><a>100+ HTML UL B</a></li>
             <li><a>01 Domain Sup</a></li>
