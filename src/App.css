@@ -99,7 +99,7 @@ ul li {
 
 .costBoxes {
   margin: 7px;
-  min-width: 280px;
+  min-width: 331px;
   vertical-align: top;/*Fix for different     height elements*/
   margin-bottom: 10px;
   display: inline-block;
