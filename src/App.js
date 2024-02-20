@@ -26,7 +26,7 @@ function App() {
           <div className='costBoxes'>
             <ul>
               <h2>Starter</h2>
-              <li><a className='money'>$19 / month <br/> billed monthly</a></li>
+              <li><a>$19 / month <br/> billed monthly</a></li>
               <li><a>Commercial Lie</a></li>
               <li><a>100+ HTML UL B</a></li>
               <li><a>01 Domain Sup</a></li>
@@ -39,7 +39,7 @@ function App() {
         <div className='costBoxes'>
           <ul>
             <h2>Standard</h2>
-            <li><a className='money'>$49 / month <br/> billed monthly</a></li>
+            <li><a>$49 / month <br/> billed monthly</a></li>
             <li><a>Commercial Lie</a></li>
             <li><a>100+ HTML UL B</a></li>
             <li><a>01 Domain Sup</a></li>
@@ -52,7 +52,7 @@ function App() {
         <div className='costBoxes'>
           <ul>
             <h2>Premium</h2>
-            <li><a className='money'>$99 / month <br/> billed monthly</a></li>
+            <li><a>$99 / month <br/> billed monthly</a></li>
             <li><a>Commercial Lie</a></li>
             <li><a>100+ HTML UL B</a></li>
             <li><a>01 Domain Sup</a></li>
