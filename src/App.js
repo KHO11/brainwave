@@ -136,12 +136,10 @@ function App() {
 
         <div className='separator'>
           <p>2024 Copyright, All Right Reserved, Made by Seju_ui_ux with</p>
-          <div className='socialMediaIcons'>
-            <a class="fa fa-twitter"></a>
-            <a class="fa fa-facebook"></a>
-            <a class="fa fa-instagram"></a>
-            <a class="fa fa-linkedin"></a>
-          </div>
+          <a class="fa fa-twitter"></a>
+          <a class="fa fa-facebook"></a>
+          <a class="fa fa-instagram"></a>
+          <a class="fa fa-linkedin"></a>
         </div>
       </div>
     </div>
