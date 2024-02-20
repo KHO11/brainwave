@@ -62,7 +62,7 @@ function App() {
           <button className='rightButton'>Start Free Trail <i class="arrow right"></i></button>
           <p>No credit card required</p>
         </div>
-      </div>
+        </div>
       </div>
       <h3>Check our features</h3>
         <p>
