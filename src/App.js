@@ -14,7 +14,7 @@ function App() {
           <button>Sign In</button>
         </div>
       </div>
-      <div className='mainSection'>
+      <div data-testid ='mainSection' className='mainSection'>
         <h1>Pricing & Plans</h1>
         <p>With lots of unique blocks, you can easily build a page 
           without coding.<br /> Build your next consultancy website 
